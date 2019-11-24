@@ -1,13 +1,5 @@
 import React from 'react'
 import { render } from 'react-dom'
-
-const Application = () => {
-  return (
-    <div>
-      <h1>Hello world!</h1>
-      <button className='full-width'>This button does not do anything.</button>
-    </div>
-  )
-}
+import Application from './components/Application'
 
 render(<Application />, document.getElementById('application'))
